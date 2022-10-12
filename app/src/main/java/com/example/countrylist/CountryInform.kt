@@ -1,0 +1,81 @@
+package com.example.countrylist
+
+class CountryInform {
+    val data = listOf(
+        CountryData(
+            "https://cdn.pixabay.com/photo/2013/07/13/14/14/armenia-162230_960_720.png",
+            CountryEnum.ARMNEIA.countryName,
+            CountryEnum.ARMNEIA.capital,
+            CountryEnum.ARMNEIA.independenceDay,
+            "Armenia is a unitary, multi-party, democratic nation-state with an ancient cultural heritage. The first Armenian state of Urartu was established in 860 BC, and by the 6th century BC it was replaced by the Satrapy of Armenia. The Kingdom of Armenia reached its height under Tigranes the Great in the 1st century BC and in the year 301 became the first state in the world to adopt Christianity as its official religion.[17][18][19][20] The ancient Armenian kingdom was split between the Byzantine and Sasanian Empires around the early 5th century. Under the Bagratuni dynasty, the Bagratid Kingdom of Armenia was restored in the 9th century. Declining due to the wars against the Byzantines, the kingdom fell in 1045 and Armenia was soon after invaded by the Seljuk Turks. An Armenian principality and later a kingdom Cilician Armenia was located on the coast of the Mediterranean Sea between the 11th and 14th centuries."
+        ),
+        CountryData(
+            "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/640px-Flag_of_Russia.svg.png",
+            CountryEnum.RUSSIA.countryName,
+            CountryEnum.RUSSIA.capital,
+            CountryEnum.RUSSIA.independenceDay
+        ),
+        CountryData(
+            "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png",
+            CountryEnum.GERMANY.countryName,
+            CountryEnum.GERMANY.capital,
+            CountryEnum.GERMANY.independenceDay
+        ),
+        CountryData(
+            "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
+            CountryEnum.JAPAN.countryName,
+            CountryEnum.JAPAN.capital,
+            CountryEnum.JAPAN.independenceDay
+        ),
+        CountryData(
+            "https://cdn.pixabay.com/photo/2013/07/13/14/14/australia-162232_960_720.png",
+            CountryEnum.AUSTRALIA.countryName,
+            CountryEnum.AUSTRALIA.capital,
+            CountryEnum.AUSTRALIA.independenceDay
+        ),
+        CountryData(
+            "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1200px-Flag_of_Sweden.svg.png",
+            CountryEnum.SWEDEN.countryName,
+            CountryEnum.SWEDEN.capital,
+            CountryEnum.SWEDEN.independenceDay
+        ),
+        CountryData(
+            "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png",
+            CountryEnum.FRANCE.countryName,
+            CountryEnum.FRANCE.capital,
+            CountryEnum.FRANCE.independenceDay
+        ),
+        CountryData(
+            "https://cdn.pixabay.com/photo/2017/02/06/15/09/american-flag-2043285_960_720.png",
+            CountryEnum.USE.countryName,
+            CountryEnum.USE.capital,
+            CountryEnum.USE.independenceDay
+        ),
+        CountryData(
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/800px-Flag_of_Ukraine.svg.png",
+            CountryEnum.UKRAINE.countryName,
+            CountryEnum.UKRAINE.capital,
+            CountryEnum.UKRAINE.independenceDay
+        ),
+        CountryData(
+            "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
+            CountryEnum.BRAZIL.countryName,
+            CountryEnum.BRAZIL.capital,
+            CountryEnum.BRAZIL.independenceDay
+        ),
+        CountryData(
+            "https://cdn.britannica.com/90/7490-004-BAD4AA72/Flag-China.jpg",
+            CountryEnum.CHINA.countryName,
+            CountryEnum.CHINA.capital,
+            CountryEnum.CHINA.independenceDay
+
+        ),
+        CountryData(
+            "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png",
+            CountryEnum.INDIA.countryName,
+            CountryEnum.INDIA.capital,
+            CountryEnum.INDIA.independenceDay
+        )
+    )
+
+}

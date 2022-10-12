@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+
+    <ImageView
+        android:id="@+id/image_country"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:id="@+id/countryName"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_country"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:id="@+id/textViewCapital"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Capital"
+        android:textColor="#9C9C9C"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@id/countryCapital"
+        app:layout_constraintEnd_toEndOf="@id/countryCapital"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@id/image_country"
+        app:layout_constraintTop_toBottomOf="@id/countryName" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:id="@+id/countryCapital"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/countryName"
+        app:layout_constraintStart_toStartOf="@id/countryName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCapital" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:id="@+id/textVIewCountryIndependenceDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Independence date"
+        android:textColor="#9C9C9C"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/CountryIndependenceDay"
+        app:layout_constraintEnd_toEndOf="@id/CountryIndependenceDay"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@id/image_country"
+        app:layout_constraintTop_toBottomOf="@+id/countryCapital" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:id="@+id/CountryIndependenceDay"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:text="June 6, 1563"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/countryCapital"
+        app:layout_constraintStart_toStartOf="@id/countryCapital"
+        app:layout_constraintTop_toTopOf="@+id/textVIewCountryIndependenceDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
