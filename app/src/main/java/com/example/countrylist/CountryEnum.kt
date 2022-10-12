@@ -13,7 +13,7 @@ enum class CountryEnum(
     AUSTRALIA("Australia", "Canberra", "January 26, 1788"),
     SWEDEN("Sweden", "Stockholm", "June 6, 1809"),
     FRANCE("France", "Paris", "July 14, 1789"),
-    USE("USA", "Washington", "July 4, 1766"),
+    USA("USA", "Washington", "July 4, 1766"),
     UKRAINE("Ukraine", "Kiev", "August 24, 1991"),
     BRAZIL("Brazil", "Portuguese", "September 7, 1822"),
     CHINA("China", "Pekin", "December 3, 1949"),
