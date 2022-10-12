@@ -1,4 +1,4 @@
-package com.example.countrylist
+package com.example.countrylist.country_adapter
 
 import android.app.Dialog
 import android.content.Context
@@ -9,10 +9,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.countrylist.R
+
+import com.example.countrylist.data.CountryData
 
 class CountryAdapter(private val data: List<CountryData>, val context: Context) :
     RecyclerView.Adapter<CountryAdapter.MyViewHolder>() {
-
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val item = LayoutInflater.from(parent.context).inflate(R.layout.recycleview, parent, false)
@@ -49,6 +51,7 @@ class CountryAdapter(private val data: List<CountryData>, val context: Context) 
             dialog.show()
         }
 
+
       private  fun showInformCountry() {
             val dialog = Dialog(context)
             dialog.setContentView(R.layout.dialog_inform)
@@ -68,11 +71,10 @@ class CountryAdapter(private val data: List<CountryData>, val context: Context) 
               .into(countryImage)
 
             dialog.show()
-
         }
 
-
         fun bind(item: CountryData) {
+
             Glide.with(context)
                 .load(item.url)
                 .into(countryImage)

@@ -1,4 +1,4 @@
-package com.example.countrylist
+package com.example.countrylist.data
 
 enum class CountryEnum(
     val countryName: String,

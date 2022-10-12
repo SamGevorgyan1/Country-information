@@ -1,6 +1,6 @@
-package com.example.countrylist
+package com.example.countrylist.data
 
-class CountryInform {
+class CountryInformData {
     val data = listOf(
         CountryData(
             "https://cdn.pixabay.com/photo/2013/07/13/14/14/armenia-162230_960_720.png",
